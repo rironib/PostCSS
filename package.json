@@ -1,0 +1,21 @@
+{
+  "name": "PostCSS",
+  "version": "1.0.0",
+  "description": "PostCSS Github Repository",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./public/style.css -w",
+    "build-p": "postcss ./src/tailwind.css -o ./public/style.css -w"
+  },
+  "keywords": [],
+  "author": "RONiB",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "postcss-cli": "^11.0.0"
+  }
+}
